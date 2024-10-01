@@ -14,5 +14,4 @@ urlpatterns = [
     path('<variable>/', views.view_with_name),
     re_path(r'^archive/(?P<archive_year>202[0-3])/$', views.show_archive),
     path('<path:variable>', views.view_with_name),
-
 ]
